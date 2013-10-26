@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Taller práctico de Git</title>
+
+  <link rel="stylesheet" href="css/foundation.css">
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+
+	<div class="row">
+		<div class="large-12 columns text-center">
+			<h1>Taller práctico de Git</h1>
+      <p class="subheader">Gustavo Jose Morales Carpio<br>Universidad del Norte</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-12 columns">
+      <h2></h2>
+      <div class="section-container auto" data-section>
+        <section class="active">
+          <p class="title" data-section-title><a href="#panel1">Front End Web Developer</a></p>
+          <div class="content" data-section-content>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>1</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Crear un repositorio vacio en <a href="http://github.com/" target="_blank">github</a> llamado <kbd>academia[numero-del-grupo]</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>2</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>3</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Clonar el repositorio remoto<br> <kbd>git clone https://github.com/[nombre-de-usuario]/academia[numero-del-grupo].git</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>4</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Editar el archivo <span class="label alert round">index.html</span> reemplazando el contenido que comprende<br><kbd>&lt;body&gt;<br><--<br>&lt;script&gt;</kbd><br> con el <a href="files/layout.txt" target="_blank">Esquema Visual</a> </li>
+                  <li>Agregar el archivo <br><kbd>git add index.html</kbd></li>
+                  <li>Realizar el commit<br><kbd>git commit -m "Index Layout"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>5</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>6</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>7</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Agregar en el archivo <span class="label alert round">index.html</span> anexando dentro despues de la etiqueta <br><kbd>&lt;header&gt;<br><--</kbd><br> con la <a href="files/navigation.txt" target="_blank">Navegación</a> </li>
+                  <li>Agregar el archivo y realizar el commit<br><kbd>git commit -am "Index Navigation"</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>8</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>9</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>10</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log</kbd></li>
+                  <li>Mostrando el historial de cambios de una forma diferente<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Agregar en el archivo <span class="label alert round">index.html</span> anexando despues que termina la etiqueta <br><kbd>&lt;/header&gt;<br><--</kbd><br> con el <a href="files/slider.txt" target="_blank">Carusel de fotografías</a> </li>
+                  <li>Agregar el archivo y realizar el commit<br><kbd>git commit -am "Index Slider"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>11</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>12</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Agregar en el archivo <span class="label alert round">index.html</span> anexando despues que termina la etiqueta <br><kbd>&lt;section id="main"&gt;<br>...<br>&lt;/section&gt;<br><--</kbd><br> con la <a href="files/galerry.txt" target="_blank">Galeria de fotos</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y realizar el commit<br><kbd>git commit -am "Index Gallery"</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>13</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Agregar en el archivo <span class="label alert round">index.html</span> anexando despues que termina la etiqueta <br><kbd> &lt;section id="gallery"&gt;<br>...<br>&lt;/section&gt;<br>&lt;/div&gt;<br><--</kbd><br> con las <a href="files/news.txt" target="_blank">Noticias</a> </li>
+                  <li>Agregar el archivo y realizar el commit<br><kbd>git commit -am "Index News"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>14</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>15</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>16</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Agregar en el archivo <span class="label alert round">index.html</span> anexando despues que termina la etiqueta <br><kbd> &lt;/article&gt;<br>&lt;/aside&gt;<br>&lt;/div&gt;<br><--<br>&lt;footer&gt;</kbd><br> con las <a href="files/news.txt" target="_blank">Secciones</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y realizar el commit<br><kbd>git commit -am "Index Sections"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>17</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>18</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Crear una etiqueta para el proyecto <br><kbd>git tag 1.0</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Publicar la etiqueta en el repositorio remoto<br> <kbd>git push --tags</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>19</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>20</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Cambiar a la nueva rama <br><kbd>git checkout development</kbd></li>
+                  <li>Mezclar las ramas<br> <kbd>git merge master</kbd></li>
+                  <li>Ver el historial<br> <kbd>git hist --all</kbd></li>
+                  <li>Cambiar a la rama master <br><kbd>git checkout master</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Realizar el commit<br><kbd>git commit -am "IE Fix"</kbd></li>
+                  <li>Crear una etiqueta para el proyecto <br><kbd>git tag 1.1</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                  <li>Publicar la etiqueta en el repositorio remoto<br> <kbd>git push --tags</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section>
+          <p class="title" data-section-title><a href="#panel2">UX Designer</a></p>
+          <div class="content" data-section-content>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>1</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>2</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>3</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Clonar el repositorio remoto<br> <kbd>git clone https://github.com/[nombre-de-usuario]/academia[numero-del-grupo].git</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>4</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>5</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Copiar el <a href="files/logo.png" target="_blank">logo</a>, el icono de <a href="files/icon_facebook.png" target="_blank">Facebook</a> y el icono de <a href="files/icon_twitter.png" target="_blank">Twitter</a> dentro del directorio<br> <kbd>academia[numero-de-grupo]/img/</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status</kbd></li>
+                  <li>Añadir el logo y los iconos al stage (index)<br> <kbd>git add logo.png icon_facebbok.png icon_twitter.png</kbd></li>
+                  <li>Realizar el commit <br><kbd>git commit -m "Add logo and Social Network icons"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>6</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>7</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>8</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>9</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>10</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git fetch</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Confirmar los cambios<br><kbd>git commit -m "Updated index.html"</kbd></li>
+                  <li>Copiar las imagenes del carrusel <a href="files/university_of_sydney_main_quadrangle-960x300.jpg" target="_blank">1</a>, <a href="files/university-960x300.jpg" target="_blank">2</a>, <a href="files/3604715319_ff40f98c7c_b-960x300.jpg" target="_blank">3</a> y <a href="files/2372511080_11b724aff2_b-960x300.jpg" target="_blank">4</a> dentro del directorio<br> <kbd>academia[numero-de-grupo]/img/</kbd></li>
+                  <li>Añadir los archivos stage (index)<br> <kbd>git add .</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Realizar el commit <br><kbd>git commit -m "Add Slider images"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>11</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>12</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>13</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>14</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Copiar las imagenes del carrusel <a href="files/4202579949_cdf5cfd481_b-500x333.jpg" target="_blank">1</a>, <a href="files/toscana-75x55.jpg" target="_blank">2</a>, <a href="files/3478597156_e65c479fa0_b-75x55.jpg" target="_blank">3</a>, <a href="files/3605071898_ee5f235d6b_b-500x334.jpg" target="_blank">4</a>, <a href="files/4202594209_0d1495cd1e_b-75x55.jpg" target="_blank">5</a> y <a href="files/4488786377_11ae37021e_b-75x55.jpg" target="_blank">6</a> dentro del directorio<br> <kbd>academia[numero-de-grupo]/img/</kbd></li>
+                  <li>Agregar los archivos <br><kbd>git add .</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Realizar el commit <br><kbd>git commit -a "Add Slider images"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>15</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>16</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>17</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>18</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>19</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Ver el listado de etiquetas <br><kbd>git tag</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section>
+          <p class="title" data-section-title><a href="#panel2">Front End Web Designer</a></p>
+          <div class="content" data-section-content>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>1</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>2</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Crear un directorio vacio<br> <kbd>mkdir academia[numero-del-grupo]</kbd></li>
+                  <li>Instalar Foundation<br> <kbd>CRTL+SHIFT+P</kbd> <kbd>Fetch - Package</kbd> <kbd>Foundation</kbd></li>
+                  <li>Inicializar el repositorio git<br> <kbd>git init</kbd></li>
+                  <li>Añadir todos los archivos al stage (index)<br> <kbd>git add .</kbd></li>
+                  <li>Realizar el primer commit<br> <kbd>git commit -m "Initial Commit"</kbd></li>
+                  <li>Añadir el repositorio remoto al repositorio local<br> <kbd>git remote add origin https://github.com/[nombre-de-usuario]/academia[numero-del-grupo].git</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>3</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>4</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>5</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>6</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>7</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>8</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Crear el archivo <span class="label alert round">screen.css</span> en el directorio <br><kbd>academia[numero-del-grupo]/css/</kbd><br> y pegar el contenido de <a href="files/layout-css.txt" target="_blank">CSS Layout</a> </li>
+                  <li>Añadir en el archivo <span class="label alert round">index.html</span> despues de la linea <br><kbd>&lt;script src="js/vendor/custom.modernizr.js"&gt;&lt;/script&gt;</kbd><br> la siguiente linea <br><kbd>&lt;link rel="stylesheet" href="css/screen.css"&gt;</li>
+                  <li>Agregar los archivos<br><kbd>git add .</kbd></li>
+                  <li>Crear el commit<br><kbd>git commit -m "Create CSS, Link and Layout CSS"</kbd></li>
+
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>9</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Añadir al final del archivo <span class="label alert round">screen.css</span> el contenido de <a href="files/navigation-css.txt" target="_blank">CSS Navigation</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y crear el commit<br><kbd>git commit -am "CSS Navigation"</kbd></li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>10</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>11</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Añadir al final del archivo <span class="label alert round">screen.css</span> el contenido de <a href="files/slider-css.txt" target="_blank">CSS Slider</a> </li>
+                  <li>Agregar el archivo y crear el commit<br><kbd>git commit -am "CSS Slider"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>12</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>13</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>14</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>15</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Añadir al final del archivo <span class="label alert round">screen.css</span> el contenido de <a href="files/gallery-css.txt" target="_blank">CSS Gallery</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y crear el commit<br><kbd>git commit -am "CSS Gallery"</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>16</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Añadir al final del archivo <span class="label alert round">screen.css</span> el contenido de <a href="files/news-css.txt" target="_blank">CSS News</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y crear el commit<br><kbd>git commit -am "CSS News"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>17</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Añadir al final del archivo <span class="label alert round">screen.css</span> el contenido de <a href="files/sidebar-css.txt" target="_blank">CSS Sidebar</a> </li>
+                  <li>Verificar el estado del repositorio<br> <kbd>git status -s</kbd></li>
+                  <li>Agregar el archivo y crear el commit<br><kbd>git commit -am "CSS Sidebar"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin master</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>18</h2>
+              </div>
+              <div class="large-11 columns">
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="large-1 columns">
+                <h2>19</h2>
+              </div>
+              <div class="large-11 columns">
+                <ol>
+                  <li>Obtener los cambios del repositorio remoto<br><kbd>git pull</kbd></li>
+                  <li>Verificar el historial de cambios<br><kbd>git log --pretty=oneline</kbd></li>
+                  <li>Crea una nueva rama para realizar unos cambios de compatibilidad <br><kbd>git check -b development</kbd></li>
+                  <li>Copiar las librearias <a href="files/respond.js">Respond</a> y <a href="files/html5shiv.js">HTML5 Shiv</a> al directorio <br><kbd>academia[numero-del-grupo]/js/vendor/</kbd></li>
+                  <li>Editar el archivo <span class="label alert round">index.html</span> agregando despues de la etiqueta<br><kbd>&lt;link rel="stylesheet" href="css/screen.css"&gt;</kbd><br> con el <a href="files/iefix.txt" target="_blank">IeFix</a> </li>
+                  <li>Agregar los archivos <br><kbd>git add .</kbd></li>
+                  <li>Realizar el commit<br><kbd>git commit -m "IE Fix"</kbd></li>
+                  <li>Publicar los cambios en el repositorio remoto<br> <kbd>git push -u origin development</kbd></li>
+                </ol>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+  document.write('<script src=' + ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') + '.js><\/script>')
+  </script>
+
+  <script src="js/foundation.min.js"></script>
+  <!--
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.interchange.js"></script>
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="js/foundation/foundation.abide.js"></script>
+-->
+
+<script>
+$(document).foundation();
+</script>
+</body>
+</html>

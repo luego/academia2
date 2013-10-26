@@ -1,0 +1,11 @@
+<section id="gallery">
+  <h2>Our Gallery</h2>
+  <ul class="small-block-grid-2 large-block-grid-6">
+    <li><a href="#"><img src="img/4202579949_cdf5cfd481_b-500x333.jpg" alt=""></a></li>
+    <li><a href="#"><img src="img/toscana-75x55.jpg" alt=""></a></li>
+    <li><a href="#"><img src="img/3478597156_e65c479fa0_b-75x55.jpg" alt=""></a></li>
+    <li><a href="#"><img src="img/3605071898_ee5f235d6b_b-500x334.jpg" alt=""></a></li>
+    <li><a href="#"><img src="img/4202594209_0d1495cd1e_b-75x55.jpg" alt=""></a></li>
+    <li><a href="#"><img src="img/4488786377_11ae37021e_b-75x55.jpg" alt=""></a></li>
+  </ul>
+</section>

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+	aside{
+		margin-top: 0;
+	}
+	#sections{
+		margin-top: 10px;
+	}
+	footer{
+		margin: 0;
+	}
+	footer .legal{
+		margin-top: 10px;
+	}
+}
